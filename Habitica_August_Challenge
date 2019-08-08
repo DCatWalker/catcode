@@ -1,0 +1,12 @@
+#if the number has 3 as a factor, output "pling"
+#if the number has 5 as a facrot, output "Plang"
+#if the number has 7 as a factor, output "plong"
+#If the number does not have 3,5,7 as a factor, just pass the number's digits straight through
+
+number = int(input('Enter a number: '))
+if number % 3 == 0:
+    print('Pling')
+if number % 5 == 0:
+    print("Plang")
+if number % 7 == 0:
+    print('Plong')
